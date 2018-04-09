@@ -1,1 +1,16 @@
 Search for Atom Editor
+
+$ git config --global user.name "sudhakar"
+$ git config --global user.email "sudhakarvaddi11@gmail.com"
+$ git config --list
+
+
+
+$ touch t1 t2 t3 t4 t5    <to create files>
+$ cat example.txt
+  Hello 
+  <Ctrl + D> to save and exit.
+
+$ git status
+$ git log
+$ git log --stat
