@@ -11,6 +11,36 @@ $ cat example.txt
   Hello 
   <Ctrl + D> to save and exit.
 
+$ git add sample.txt
+$ git add s*
+$ git add .    <for all files>
+$ git commit -m "files saved"
+$ git push
 $ git status
 $ git log
 $ git log --stat
+
+
+
+1) Transferring files from GIT (Local machine) to GIT HUB (Server).      Google for GIT SCM. Download the software and install it.
+   Next -> then check if Git Bash is checked. It is needed.
+   Next -> Next -> select the radio button 3.
+   Then continue installing.
+2) Install GIT.
+3) GIT bash m folder
+   Create a folder on the desktop.
+   Right click and select "Git Bash here".
+3) GIT init --> this creates ".git" hidden file.
+4) Name and email
+   git config --global user.name "Vamshi Krishna".
+   git config --global email "vamshi_v@yahoo.com".
+   git config --list
+5) Create aned edit files.
+6) GIT status.
+   This is show all untracked files. (will show in red colour)
+6) The elements should first be moved to Staging/Index area by using the command GIT ADD.
+   GIT sample.txt
+7) GIT commit -m "some meaningful message".
+8) GIT PUSH.
+
+
